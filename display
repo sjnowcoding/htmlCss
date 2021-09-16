@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    div {
+        background-color: gray;
+        width: 25%;
+        height: 50px;
+        color: white;
+        margin-bottom: 10px;
+        display: inline-block;
+        /* inline 은 너비를 조절 할 수 없다. 
+           block 은 한 줄을 모두 차지한다. 
+           inline-block는 한줄을 모두 차지하지 않으면서, 너비를 지정할 수 있다.
+         */
+
+    }
+    
+</style>
+
+
+</head>
+<body>
+
+<div>    수정  </div> 
+<div> 확인 </div>
+<div> 취소 </div>
+
+
+</body>
+</html>
+
