@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+
+<style>
+    @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+
+    .A { /*class Selector*/
+        background-color: gray;
+        width: 100%;
+        height: 200px;
+        margin:10px;
+        position: relative;
+        font-family: 'Nanum Pen Script','NanumGothic';
+        font-size:48px;
+        
+     }
+  
+</style>
+
+
+</head>
+<body>
+     <!-- type Lorem and Tab  -->
+     
+
+<div class="A">  
+  안녕하세요 <br/>
+  웹폰트에대해서 학습합니다.
+
+</div> 
+
+
+</body>
+</html>
+
