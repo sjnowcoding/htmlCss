@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            display: block;
+            width: 100px;
+            height: 20px;
+            text-align: center;
+            background-color: black;
+            color:white;
+            margin-left: auto;
+            margin-right:auto;
+            
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <p id = "t"> </p>
+
+<script>
+    let t = document.querySelector("#t");
+
+    let x = 0;
+    function writeSec() {
+        t.innerHTML = x + "sec";
+        x++;
+    }
+
+    setInterval(writeSec,1000);
+
+</script>
+
+
+</body>
+</html>
