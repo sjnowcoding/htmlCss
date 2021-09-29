@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            display: block;
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            background-color:gray;
+            color:white;
+            margin-left: auto;
+            margin-right:auto;
+            margin-bottom: 10px;
+            
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <div id = "t"> </div>
+    <div id = "h"></div>
+    
+
+<script>
+  let pKey = document.querySelector("#t");
+  let pKeyChar = document.querySelector("#h");
+
+  document.onkeypress = function(event) {
+      pKey.innerHTML = event.keyCode; 
+      pKeyChar.innerHTML = String.fromCharCode(event.keyCode);
+  }
+
+</script>
+
+
+</body>
+</html>
