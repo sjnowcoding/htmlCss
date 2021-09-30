@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        p{
+            background-color: wheat;
+            
+            width:200px;
+            height:20px;
+            padding:3px;
+            margin:10px 0px 5px 5px;
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <h2>간단한메모</h2>
+    <form action="">
+        <input type="text" id="memo" required>
+        <button onclick="newMemo(); return false; ">입력</button>
+    </form>
+
+    <div id="memoList"></div>
+
+    <script>
+      function newMemo(){
+
+          //create Element , text Node
+          let nElementNode = document.createElement("p"); //element Node
+          let pointerInput= document.querySelector("#memo");
+          let nTextNode = document.createTextNode(pointerInput.value);
+          nElementNode.appendChild(nTextNode);
+          
+          
+
+         // body 태그와 연결하기 
+         let mL = document.querySelector("#memoList");
+         mL.appendChild(nElementNode);
+
+         pointerInput.value=""; // input box 내용 지우기 
+      }
+
+
+    </script>
+</body>
+</html>
